@@ -1279,7 +1279,7 @@ Timeline = {
       var i, current_elements;
 
       i = 0;
-      elements = elements.clone();
+      elements = elements.slice();
 
       while (elements.length > 0) {
         i++;
